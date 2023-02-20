@@ -15,7 +15,7 @@ interface Activity {
 
 export const getAppleMusicData = (data: ExtractData<ReturnType<typeof useLanyard>>) => {
 	const appleMusic = data?.activities.find?.(
-		(a) => (a.application_id as unknown as string) === '886578863147192350'
+		(a) => (a.application_id as unknown as string) === '1077028056813817949'
 	);
 
 	if (!appleMusic) return undefined;
@@ -36,7 +36,7 @@ export const getCodeData = (
 ): VSCodeData | undefined => {
 	// Unknown cast is a workaround for the fact that `application_id` is a string but the interface is wrong
 	const codeActivity = data?.activities?.find?.(
-		(a) => (a.application_id as unknown as string) === '732565262704050298'
+		(a) => (a.application_id as unknown as string) === '1038556843452145745'
 	);
 
 	if (!codeActivity) {
@@ -71,7 +71,7 @@ export const getOtherActivities = (
 	// Unknown cast is a workaround for the fact that `application_id` is a string but the interface is wrong
 	const otherActivities = data?.activities?.filter?.(
 		(a) =>
-			!['732565262704050298', '886578863147192350'].includes(
+			!['', ''].includes(
 				a.application_id as unknown as string
 			) && a.type === 0
 	);

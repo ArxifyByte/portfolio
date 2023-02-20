@@ -64,41 +64,26 @@
 	<div class="flex flex-col gap-7">
 		<div class="min-h-[3em] lg:min-h-0">
 			<h1 class="text-arc-700 dark:text-arc-300">
-				<span class="dark:text-arc-blue">polar, software engineer & community manager</span>
+				<span class="dark:text-arc-blue">arxify, student & self-taught developer</span>
 			</h1>
 		</div>
 		<div>
 			<h1 class="text-arc-900 dark:text-arc-100 font-extrabold">projects</h1>
 			<ul class="list-disc list-inside text-arc-700 dark:text-arc-blue">
 				<ProjectItem
-					href="https://spacedrive.com"
-					name="spacedrive.com"
-					description="a file explorer from the future"
+					href="https://twitter.com/h7ddensociety"
+					name="hidden society"
+					description="independent record label"
 				/>
 				<ProjectItem
-					href="https://renderflux.com"
-					name="renderflux.com"
-					description="the home for creativity through ai"
+					href="https://github.com/darkside-development"
+					name="darkside development"
+					description="open source development team"
 				/>
 				<ProjectItem
-					href="https://github.com/otterdevelopment/simplemod"
-					name="simplemod"
-					description="advanced moderation tool for communities"
-				/>
-				<ProjectItem
-					href="https://github.com/otterdevelopment/beemohelper"
-					name="beemo helper"
-					description="third party bot for beemo.gg"
-				/>
-				<ProjectItem
-					href="https://github.com/otterdevelopment/astro"
-					name="astro"
-					description="powerful discord suggestion bot"
-				/>
-				<ProjectItem
-					href="https://tixte.com"
-					name="tixte.com"
-					description="home to your best moments"
+					href="https://dsc.gg/amane"
+					name="amane"
+					description="a powerful multipurpose discord bot"
 				/>
 			</ul>
 		</div>
@@ -106,22 +91,20 @@
 			<h1 class="text-arc-900 dark:text-arc-100 font-extrabold">old</h1>
 			<ul class="list-disc list-inside text-arc-700 dark:text-arc-blue">
 			<ProjectItem
-					href="https://github.com/otterdevelopment/positivepeter"
-					name="positive peter"
-					description="discord bot to uplift users"
+					href="https://arxify.vercel.app/archive/old"
+					name="website"
+					description="outdated website with my social links"
 				/>
 			</ul>
 		</div>
 		<div>
 			<h1 class="text-arc-900 dark:text-arc-100 font-extrabold">links</h1>
 			<ul class="list-disc list-inside text-arc-700 dark:text-arc-blue">
-				<ProjectItem href="https://haste.polars.cloud" name="hastebin" />
-				<ProjectItem href="https://discord.gg/VvE5ucuJmW" name="discord" />
-				<ProjectItem href="https://twitter.com/xpolarrr" name="twitter" />
-				<ProjectItem href="https://ko-fi.com/xpolar" name="donate" />
-				<ProjectItem href="https://github.com/xpolar" name="github" />
-				<ProjectItem href="mailto:polar@polar.blue" name="email" />
-				<ProjectItem href="/resume.pdf" name="resume" />
+				<ProjectItem href="https://github.com/arxifybyte" name="github" />
+				<ProjectItem href="https://discord.gg/users/975954277791047752" name="discord" />
+				<ProjectItem href="https://twitter.com/devarxify" name="twitter" />
+				<ProjectItem href="mailto:creators@cyberdude.com" name="email" />
+<!-- 				<ProjectItem href="/resume.pdf" name="resume" /> -->
 			</ul>
 		</div>
 	</div>
